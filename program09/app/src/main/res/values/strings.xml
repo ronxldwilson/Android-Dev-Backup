@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">program09</string>
+    <string name="wifi" />
+    <string name="camera" />
+    <string name="music" />
+    <string name="enable" />
+    <string name="disable" />
+</resources>

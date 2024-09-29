@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reccia"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="394dp"
+        android:layout_height="229dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#A001EF"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Toll Fee Collection"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="177dp"
+                android:layout_height="227dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="No of Vehicles "
+                    android:textAlignment="center"
+                    android:textColor="#404040"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/vehicleCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="75sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Total Amount(Rs)"
+                    android:textAlignment="center"
+                    android:textColor="#404040"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/totalAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="75sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="386dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/twoWheelerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/p1"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:shadowColor="#0E0E0E"
+            android:text="Two Wheeler" />
+
+        <Button
+            android:id="@+id/fourWheelerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/p2"
+            android:fontFamily="sans-serif-medium"
+            android:text="Four Wheeler " />
+
+        <Button
+            android:id="@+id/rfidButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/p3"
+            android:fontFamily="sans-serif-medium"
+            android:text="RFID" />
+
+        <Button
+            android:id="@+id/truckButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/p4"
+            android:fontFamily="sans-serif-medium"
+            android:text="truck/bus" />
+
+        <Button
+            android:id="@+id/vipButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/p5"
+            android:fontFamily="sans-serif-medium"
+            android:text="pass" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

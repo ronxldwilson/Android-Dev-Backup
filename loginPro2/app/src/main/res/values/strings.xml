@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">loginPro2</string>
+    <string name="username">Username</string>
+    <string name="submit">SUBMIT</string>
+    <string name="password">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="welcome">Welcome</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+</resources>

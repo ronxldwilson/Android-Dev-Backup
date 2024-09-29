@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CIA3</string>
+    <string name="welcome">Welcome </string>
+    <string name="login_to_access_your_account">Login to access your account </string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">Or</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="don_t_have_an_account">Dont have an Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="statistics">Statistics</string>
+
+    <!--    <string-array name="Subject">-->
+    <!--        <item>Computer</item>-->
+    <!--        <item>Mathematics</item>-->
+    <!--        <item>Statistics</item>-->
+    <!--    </string-array>-->
+
+</resources>
